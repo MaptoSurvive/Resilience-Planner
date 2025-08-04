@@ -1,10 +1,12 @@
-import Header from './components/Header'; // Case-sensitive!
+// src/App.jsx
+import React from 'react';
 
 function App() {
   return (
-    <div>
-      <Header />
-      {/* Rest of your code */}
+    <div className="app">
+      <h1>Resilience Planner</h1>
     </div>
   );
 }
+
+export default App; // ← This line is CRUCIAL
