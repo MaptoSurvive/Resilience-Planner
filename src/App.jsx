@@ -1,11 +1,10 @@
-import Header from './components/Header';
-import TaskList from './components/TaskList';
+import Header from './components/Header'; // Case-sensitive!
 
-export default function App() {
+function App() {
   return (
-    <div className="app">
+    <div>
       <Header />
-      <TaskList />
+      {/* Rest of your code */}
     </div>
   );
 }
