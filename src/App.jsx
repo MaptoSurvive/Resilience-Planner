@@ -1,12 +1,8 @@
-// src/App.jsx
-import React from 'react';
-
-function App() {
+export default function App() {
   return (
-    <div className="app">
+    <div>
       <h1>Resilience Planner</h1>
+      <p>If you see this, React is working!</p>
     </div>
   );
 }
-
-export default App; // ← This line is CRUCIAL
