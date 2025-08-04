@@ -1,15 +1,11 @@
-import './App.css';
+import Header from './components/Header';
+import TaskList from './components/TaskList';
 
-function App() {
+export default function App() {
   return (
     <div className="app">
-      <h1>Resilience Planner</h1>
-      <div className="card">
-        <p>Start building your emergency plan.</p>
-        <button>Add First Task</button>
-      </div>
+      <Header />
+      <TaskList />
     </div>
   );
 }
-
-export default App;
