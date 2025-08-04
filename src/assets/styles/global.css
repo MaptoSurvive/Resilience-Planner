@@ -1,0 +1,8 @@
+:root {
+  --primary-color: #3a86ff;
+  --danger-color: #ff006e;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
