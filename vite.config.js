@@ -3,4 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
+  base: '/Resilience-Planner/', // Match your repo name
 });
